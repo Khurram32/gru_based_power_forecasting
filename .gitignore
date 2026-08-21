@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Project-specific: generated data, model artifacts, results ---
+data/monthly_power_consumption.csv
+outputs/*.pt
+outputs/*.pth
+outputs/*.csv
+outputs/*.json
+outputs/*.png
+
+# keep the outputs directory tracked but ignore its generated contents
+!outputs/.gitkeep
